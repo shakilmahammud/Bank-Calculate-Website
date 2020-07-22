@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!------------Login are part start-------------------->
+
+    <div id="submit-area">
+        <h1 class="text-center">Welcome to Bank Calculation System</h1>
+        <div class="col-12 login-desk">
+            <h2>Lgin</h2>
+            <input type="text" name="emai" id="" placeholder="Email" class="form-control">
+            <input type="text" placeholder="Password" class="form-control">
+            <button class="btn btn-success" id="login">Login</button>
+        </div>
+    </div>
+    <!------------login area part end-------------------->
+    <!------------transition are par start-------------------->
+
+    <div id="transition-area">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="deposit same-style">
+                <h4>Deposit</h4>
+                <h2>$ <span id="currentDeposit">00</span></h2>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="widthraw same-style">
+                <h4>Witdhraw</h4>
+                <h2>$ <span id="currentWidthraw">00</span></h2>
+              </div>
+          </div>
+          <div class="col-md-4">
+             <div class="balance same-style">
+                <h4>Balance</h4>
+                <h2>$ <span id="currentBalance">500</span></h2>
+             </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+            <div class="caculate-area">
+                <h4>Deposit</h4>
+                <input type="text" class="form-control" placeholder="$amount you want to deposit" id="depositAmount">
+                <button class="btn btn-success" id="addDeposit">Widthraw</button>
+                </div>
+        </div>
+        <div class="col-md-6 ">
+            <div class="caculate-area">
+            <h4>Widthraw</h4>
+            <input type="text" class="form-control" placeholder="$amount you want to widthraw" id="widthrawAmount">
+            <button class="btn btn-success" id="addwidthraw">Widthraw</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!------------transition are part end-------------------->
+    
+</body>
+<script src="js/custom.js"></script>
+</html>

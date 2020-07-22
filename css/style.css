@@ -1,0 +1,61 @@
+body{
+    padding:100px;
+}
+/*  login desk css */
+.login-desk{
+    padding:40px;
+    box-shadow: 0 0 40px gray;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+h2{
+    margin-bottom:20px;
+}
+.login-desk input{
+    width: 100%;
+    padding-left:10px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+.login-desk button{
+    padding:10px 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+}
+/*  transition area css */
+#transition-area{
+    display: none;
+    margin-top: 20px;
+
+}
+.same-style{
+    margin: 0px 20px;
+    border-radius: 10px;
+    padding: 20px 20px 50px 30px;
+    color:#fff;
+}
+.deposit{
+    background-color:slateblue;
+}
+.widthraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+.caculate-area{
+    padding:20px;
+    margin-right:20px;
+    box-shadow: 0 0 40px gray;
+    border-radius: 20px;
+    margin-top: 50px;
+
+}
+.caculate-area input{
+   margin-bottom: 15px;
+   margin-top:15px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
